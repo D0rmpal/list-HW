@@ -10,5 +10,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'chicken';
+  num: number = 0
+  onclicka(){
+    this.num++
+  }
 }
