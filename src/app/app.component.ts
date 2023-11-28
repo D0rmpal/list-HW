@@ -10,8 +10,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  num: number = 0
+  num: number = 10
   onclicka(){
-    this.num++
+    this.num--
   }
 }
